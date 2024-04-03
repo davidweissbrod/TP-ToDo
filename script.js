@@ -4,7 +4,7 @@ function borrarTarea(){
     tareas = document.getElementById("lista")
     for(var i = 0; i < tareas.length; i++){
         var span = document.createElement("SPAN")
-        var txt = document.createElement("\u00D7")
+        var txt = document.createTextNode("\u00D7")
         span.className = "cerrar"
         span.appendChild(txt)
         tareas[i].appendChild(span)
@@ -39,8 +39,19 @@ function añadirTarea(){
     if (inputValue === '') {
         alert("Tenes que escribir algo")
     } else {
-        document.getElementById("list").appendChild(li)
+        document.getElementById("lista").appendChild(li)
     }
     document.getElementById("tarea").value = ""
 }
 
+var span = document.createElement("SPAN")
+var txt = document.createTextNode("\u00D7")
+span.className("cerrar")
+span.appendChild(txt)
+li.appendChild(span)
+
+for(var i = 0; i < close.length; i++){
+    close[i].onclick() = function() {
+        var div = this.parentElement
+    }
+}

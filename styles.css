@@ -10,6 +10,7 @@
     background: whitesmoke;
     font-size: 18px;
     transition: 0.2s;
+    list-style: none;
   
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -18,7 +19,7 @@
   }
 
   ul li:hover {
-    background: white;
+    background: rgb(238, 241, 205);
   }
   
   ul li.checked::before {
@@ -57,7 +58,7 @@
     clear: both;
   }
   
-  input {
+  .header input {
     border: none;
     width: 75%;
     padding: 10px;
@@ -69,7 +70,7 @@
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
-    color: grey;
+    color: rgb(63, 63, 63);
     float: left;
     text-align: center;
     font-size: 16px;
@@ -79,4 +80,8 @@
   
   .addBtn:hover {
     background-color: whitesmoke;
+  }
+
+  h2{
+    color: black;
   }
