@@ -37,9 +37,10 @@ function añadirTarea(){
     var txt = document.createTextNode('inputValue')
     li.appendChild(txt)
     if (inputValue === '') {
-        alert("Tenes que escribir algo");
-      } else {
-        document.getElementById("list").appendChild(li);
-      }
-      document.getElementById("tarea").value = "";
+        alert("Tenes que escribir algo")
+    } else {
+        document.getElementById("list").appendChild(li)
+    }
+    document.getElementById("tarea").value = ""
 }
+
