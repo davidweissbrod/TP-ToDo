@@ -8,14 +8,14 @@
     <title>To Do</title>
 </head>
 <body>
-    <div id="header" class="header">
-        <h2>To Do List</h2>
-        <input type="text" id="tarea" placeholder="Escriba aqui...">
-        <span onclick="añadirTarea()" class="addBtn">Add</span>
-    </div>
-      <ul id="lista">
-        <li><input type="checkbox" id="cbox1" value="first_checkbox"></li>
-      </ul>
+  <div class="header">
+    <h2>To Do</h2>
+    <input type="text" id="ingresoTarea" placeholder="Escriba aqui...">
+    <button onclick="añadirTarea()" class = "btn-añadir">Agregar</button>
+    <button onclick="borrar()" class = "btn">Borrar todo</button>
+    <button onclick="masRapida()" class = "btn">Tarea más rápida</button>
+  </div>
+    <ul id="lista"></ul>
     <script src="script.js"></script>
 </body>
 </html>
