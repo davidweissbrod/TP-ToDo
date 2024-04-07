@@ -11,11 +11,6 @@
     font-size: 18px;
     transition: 0.2s;
     list-style: none;
-  
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
   }
 
   ul li:hover {
@@ -33,16 +28,6 @@
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
-  }
-  
-  .close {
-    position: absolute;
-    padding: 12px 16px 12px 16px;
-  }
-  
-  .close:hover {
-    background-color: gray;
-    color: white;
   }
   
   .header {
@@ -66,7 +51,7 @@
     font-size: 16px;
   }
   
-  .btn-añadir {
+  .btn {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
@@ -76,9 +61,21 @@
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
+    border: none;
   }
   
-  .btn-añadir:hover {
+  .btn-secundario{
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    background: #d9d9d9;
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
     background-color: whitesmoke;
   }
 
